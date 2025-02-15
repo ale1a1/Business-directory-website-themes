@@ -10,15 +10,9 @@
 }
 
 header h1 {
-  color: rgb(38, 116, 180);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  backdrop-filter: blur(2px);
-  /* Set the text fill color (inner color of the letters) */
-  -webkit-text-fill-color:whitesmoke;
-  /* Set the text stroke color (border color of the letters) */
-  -webkit-text-stroke-color:rgb(38, 116, 180);
-  /* Set the text stroke width (border width of the letters) */
-  -webkit-text-stroke-width: 2px;
+  color: white;
+  background: black;
+  opacity: 0.5
 }
 
 .cssBold {
@@ -34,6 +28,8 @@ header h1 {
 }
 .animate-text-right-3s {
   animation: animateText 3s ease;
+  background-color: black;
+  opacity: 0.5;
 }
 .animate-text-right-5s {
   animation: animateText 5s ease;

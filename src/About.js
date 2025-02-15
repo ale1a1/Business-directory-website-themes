@@ -11,7 +11,7 @@ const About = () => {
           <div className="col-lg-6">
             <h4 className="font-monospace my-5">About Us!</h4>
             <h2 className="display-1">
-              Since 2008 Menyahrt Media Media grows Business
+            We help businesses grow since 2008.
             </h2>
           </div>
         </div>
