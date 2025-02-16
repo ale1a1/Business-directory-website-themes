@@ -11,7 +11,7 @@ const Header = () => {
             Financial Planing For Life
           </h4>
           <h1 className="display-2 rounded animate-text-right-3s mt-4 ps-3">
-            Trusted to help guide entrepreneurs make better financial decisions
+            Trusted to guide entrepreneurs in making better financial decisions.
           </h1>
           <button
             className="btn btn-lg btn-info shadow mt-4 animate-text-right-5s cssBold ms-3 getOffer-btn"

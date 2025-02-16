@@ -10,9 +10,10 @@
 }
 
 header h1 {
+  font-size: 4.5rem !important;
   color: white;
-  background: black;
-  opacity: 0.5
+  font-weight: bold !important;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .cssBold {
@@ -27,9 +28,7 @@ header h1 {
   animation: animateText 1.5s ease;
 }
 .animate-text-right-3s {
-  animation: animateText 3s ease;
-  background-color: black;
-  opacity: 0.5;
+  animation: animateText 3s ease; 
 }
 .animate-text-right-5s {
   animation: animateText 5s ease;
@@ -119,5 +118,18 @@ header h1 {
   }
   .emailField {
     margin-top: 5%;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+  header h1 {
+    font-size: 8vw !important;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  header h1 {
+    font-size: 11vw !important;
   }
 }

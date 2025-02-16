@@ -15,13 +15,13 @@ const Team = () => {
           <div className="col-lg-6">
             <h4 className="font-monospace my-5">Our Expert Team</h4>
             <h2 className="display-1">
-              Meet our expert finlance executive team.
+              Meet our expert finance executive team.
             </h2>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
-            <div className="card shadow" style={{ width: "18rem" }}>
+          <div className="col-lg-3 col-md-6 col-12 mb-5 mb-sm-3">
+            <div className="card shadow">
               <img
                 src={[profile1]}
                 alt=""
@@ -34,8 +34,8 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
-            <div className="card shadow" style={{ width: "18rem" }}>
+          <div className="col-lg-3 col-md-6 col-12 mb-5 mb-sm-3">
+            <div className="card shadow">
               <img
                 src={[profile2]}
                 alt=""
@@ -48,8 +48,8 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
-            <div className="card shadow" style={{ width: "18rem" }}>
+          <div className="col-lg-3 col-md-6 col-12 mb-5 mb-sm-3">
+            <div className="card shadow">
               <img
                 src={[profile3]}
                 alt=""
@@ -62,8 +62,9 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 mb-5 mb-sm-3">
-            <div className="card shadow" style={{ width: "18rem" }}>
+          <div className="col-lg-3 col-md-6 col-12 mb-5 mb-sm-3">
+
+            <div className="card shadow">
               <img
                 src={[profile4]}
                 alt=""
